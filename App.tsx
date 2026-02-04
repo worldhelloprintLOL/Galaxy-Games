@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { GAMES as INITIAL_GAMES } from './constants';
-import { Game, ProxyNode } from './types';
+import { Game } from './types';
 
 const CLOAK_OPTIONS = [
   { id: 'classroom', name: 'Google Classroom', title: 'Classes', icon: 'https://ssl.gstatic.com/classroom/favicon.png' },
